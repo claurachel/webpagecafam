@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura basica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="contenedor">
+
+      <header> 
+          <h1>Bienvenidos a nuestra pagina web</h1>
+                
+                            
+      </header>  
+      <nav>
+          <!--menu de navegación, logo, redes sociales>-->  
+          <h2>                 
+            <a href="home.html"><img src="BTNINICIO.PNG"></a>
+            <a href="NOSOTROS.html"><img src="NOSOTROS.PNG"></a>
+            <a href="SERVICIOS.html"><img src="SERVICIOS.PNG"></a>
+            <a href="contactos.html"><img src="CONTACTO.PNG"></a>
+         </h2>
+      </nav>
+      <section id="contenido">
+          <article>
+              <h2>Contenido</h2>
+              <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IZUfxr11Oco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+              <form id="contacto">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Fulanito" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="de Tal"  id="apellido">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo">
+                <input type="button" value="Enviar formulario" id="boton">
+            </form>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolor temporibus eius expedita? Eum qui et asperiores ipsam? Iure dolor totam laborum veritatis iusto reiciendis illum at sapiente velit optio?</p>
+              <div>
+                <table  id="tabla">
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Apellido</td>
+                        <td>Correo</td>
+                    </tr>
+                    
+                </table>
+
+              </div>
+              </article>
+      </section>
+      <aside>
+          <h2>Publicidad</h2>
+          <img src="https://unsplash.it/200/300/" alt="">
+      </aside>
+      <footer>
+          <h2>Pie:Pag</h2>
+      </footer>
+    </div>
+    <script src="index.js"></script>
+   </body>
+</html>
